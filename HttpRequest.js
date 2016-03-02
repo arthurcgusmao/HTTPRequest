@@ -41,8 +41,8 @@
     }
 
 
+    // Gets all the inputs from the <form> node and generates a URI encoded string to submit a POST request
     function generateURIEncodedString(formNode) {
-    // gets all the inputs from the form node and generates a URI encoded string to submit a POST request
 
         var string = '';
         var inputs = formNode.getElementsByTagName('input');
